@@ -1,0 +1,35 @@
+// Diagrama
+digraph {
+	node [fillcolor=black fontcolor=ghostwhite shape=circle style=filled]
+	nodo126 [label=4.5]
+	nodo127 [label=5.32]
+	nodo128 [label="suma\n9.82"]
+	nodo128 -> nodo126
+	nodo128 -> nodo127
+	nodo129 [label=4.5]
+	nodo130 [label=10]
+	nodo131 [label=3]
+	nodo132 [label="potencia\n1000.0"]
+	nodo132 -> nodo130
+	nodo132 -> nodo131
+	nodo133 [label="resta\n-995.5"]
+	nodo133 -> nodo129
+	nodo133 -> nodo132
+	nodo134 [label=90]
+	nodo135 [label="seno\n0.89"]
+	nodo135 -> nodo134
+	nodo136 [label=5.32]
+	nodo137 [label="suma\n6.213996663600558"]
+	nodo137 -> nodo135
+	nodo137 -> nodo136
+	nodo138 [label=15]
+	nodo139 [label=3]
+	nodo140 [label="multiplicacion\n45"]
+	nodo140 -> nodo138
+	nodo140 -> nodo139
+	nodo141 [label=15]
+	nodo142 [label=3]
+	nodo143 [label="division\n5.0"]
+	nodo143 -> nodo141
+	nodo143 -> nodo142
+}
